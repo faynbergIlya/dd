@@ -40,7 +40,6 @@ export const App = () => {
   const [isCartLoaded, setIsCartLoaded] = useState(true);
 
   useEffect(() => {
-    console.log(12312);
     fetchData();
   }, [fetchData]);
 
