@@ -1,0 +1,29 @@
+{
+  "name": "@dtest/floatingcart",
+  "version": "1.0.0",
+  "description": "Cart module",
+  "author": "Ilya Faynberg <ilya.faynberg@gmail.com>",
+  "homepage": "https://github.com/faynbergIlya/dd#readme",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faynbergIlya/dd.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/faynbergIlya/dd/issues"
+  },
+  "dependencies": {
+    "@dtest/storemodule": "^1.0.0",
+    "react-redux": "^8.0.5"
+  }
+}

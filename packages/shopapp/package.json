@@ -1,0 +1,34 @@
+{
+  "name": "@dtest/shopapp",
+  "version": "1.0.0",
+  "description": "Main app",
+  "author": "Ilya Faynberg <ilya.faynberg@gmail.com>",
+  "homepage": "https://github.com/faynbergIlya/dd#readme",
+  "license": "ISC",
+  "main": "./src/index",
+  "types": "./src/index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faynbergIlya/dd.git"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "bugs": {
+    "url": "https://github.com/faynbergIlya/dd/issues"
+  },
+  "dependencies": {
+    "@dtest/cart": "^1.0.0",
+    "@dtest/floatingcart": "^1.0.0",
+    "@dtest/itemslist": "^1.0.0",
+    "@dtest/storemodule": "^1.0.0",
+    "react": "^18.2.0",
+    "react-redux": "^8.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.2"
+  }
+}

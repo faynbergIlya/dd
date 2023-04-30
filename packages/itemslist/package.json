@@ -1,0 +1,32 @@
+{
+  "name": "@dtest/itemslist",
+  "version": "1.0.0",
+  "description": "Items list",
+  "author": "Ilya Faynberg <ilya.faynberg@gmail.com>",
+  "homepage": "https://github.com/faynbergIlya/dd#readme",
+  "license": "ISC",
+  "main": "src/index.tsx",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faynbergIlya/dd.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/faynbergIlya/dd/issues"
+  },
+  "dependencies": {
+    "@dtest/floatingcart": "^1.0.0",
+    "@dtest/storemodule": "^1.0.0",
+    "react-redux": "^8.0.5",
+    "styled-components": "^5.3.10"
+  }
+}

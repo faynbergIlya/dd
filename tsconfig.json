@@ -19,6 +19,10 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": [
+    "src",
+    "packages/shopapp/vite-env.d.ts",
+    "packages/shopapp/src/store"
+  ],
+  "references": [{ "path": "./packages/shopapp/tsconfig.node.json" }]
 }
