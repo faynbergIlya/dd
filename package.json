@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "lerna run start --parallel",
-    "build": "lerna run build --parallel"
+    "start": "./node_modules/.bin/lerna run start --parallel",
+    "build": "./node_modules/.bin/lerna run build --parallel"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
